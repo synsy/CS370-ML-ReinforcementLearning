@@ -3,32 +3,32 @@ This project implements a Reinforcement Learning (RL) agent that learns to navig
 
 ## Overview
 
-Built with Python, TensorFlow/Keras, and Jupyter Notebook
+- Built with Python, TensorFlow/Keras, and Jupyter Notebook
 
-Implements Q-learning with experience replay and an epsilon-greedy strategy
+- Implements Q-learning with experience replay and an epsilon-greedy strategy
 
-Features a custom environment (TreasureMaze.py) and memory system (GameExperience.py)
+- Features a custom environment (TreasureMaze.py) and memory system (GameExperience.py)
 
-Demonstrates RL concepts like exploration vs. exploitation, reward feedback, and policy optimization
+- Demonstrates RL concepts like exploration vs. exploitation, reward feedback, and policy optimization
 
 ## How It Works
 
-The maze environment is reset with a random start position.
+- The maze environment is reset with a random start position.
 
-The agent takes actions (up, down, left, right) using exploration or exploitation.
+- The agent takes actions (up, down, left, right) using exploration or exploitation.
 
-Rewards guide learning—positive for treasure, negative for invalid or repeated moves.
+- Rewards guide learning—positive for treasure, negative for invalid or repeated moves.
 
-Experience replay improves training stability and performance over time.
+- Experience replay improves training stability and performance over time.
 
-The model converges once the agent consistently wins.
+- The model converges once the agent consistently wins.
 
 ## Skills Demonstrated
 
-Reinforcement Learning fundamentals
+- Reinforcement Learning fundamentals
 
-Neural network–based Q-value estimation
+- Neural network–based Q-value estimation
 
-Python and TensorFlow model training
+- Python and TensorFlow model training
 
-Experience replay and reward optimization
+- Experience replay and reward optimization
